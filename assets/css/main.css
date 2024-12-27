@@ -1,37 +1,56 @@
-body { 
+body {
   background-color: #262626;
-  margin: 0;             /* Eliminar márgenes predeterminados */
-  height: 100vh;         /* Asegurarse de que el cuerpo ocupe toda la altura de la ventana */
-  display: flex;         /* Usar Flexbox */
-  justify-content: center; /* Centrar el contenido horizontalmente */
-  align-items: center;   /* Centrar el contenido verticalmente */
-  background-color: #262626; /* Color de fondo para darle algo de contraste */
 }
 
-/* Estilo base para el botón */
 #btnContador {
-  width: 250px;          /* Ancho del botón */
-  height: 250px;         /* Alto del botón, debe ser igual al ancho */
-  background-color: red; /* Color de fondo */
-  color: white;          /* Color del texto */
-  font-size: 16px;       /* Tamaño de la fuente */
-  font-weight: bold;     /* Negrita */
-  border: none;          /* Sin borde */
-  border-radius: 50%;    /* Esto hace que el botón sea 100% redondo */
-  cursor: pointer;      /* Cambiar el cursor a pointer para indicar que es clickeable */
-  display: flex;         /* Para centrar el texto en el medio */
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center;   /* Centrar verticalmente */
-  transition: background-color 0.3s ease; /* Animación suave de color */
-  outline: none;         /* Eliminar el borde de enfoque en algunos navegadores */
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  outline: none;
+  border-style: solid;
+  border-color: black;
 }
 
 #btnContador:hover {
-  background-color: rgb(192, 0, 0); /* Cambiar color cuando se pasa el ratón por encima */
+  /* background-color: rgb(192, 0, 0); */
 }
 
-.panel {
+#lblCantidad {
+  text-align: center;
+}
+
+.panelSuperior {
   background-color: lightgray;
-  padding: 2%;
+  width: 276px;
   border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30%;
+  margin-left: 35%;
+}
+
+.panelInferior {
+  background-color: lightgray;
+  width: 276px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0%;
+  margin-left: 35%;
 }
