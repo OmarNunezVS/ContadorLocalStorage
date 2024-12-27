@@ -1,41 +1,4 @@
 /* BODY */
-body,
 html {
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-}
-
-.bg {
-    /* The image used */
-    background-image: url("../../images/FelizNavidad.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1 {
-    color: white;
-}
-
-#txtRegistro {
-    border-color: red;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 2%;
-}
-
-body>div.swal2-container.swal2-center.swal2-backdrop-show>div>div.swal2-actions>button.swal2-confirm.swal2-styled {
-    background-color: rgb(104, 104, 104);
-}
-
-img {
-    /* width: 3px; */
-    height: 23px;
-    padding-bottom: 3px;
+    background-color: #262626;
 }
