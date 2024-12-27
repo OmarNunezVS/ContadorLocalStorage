@@ -10,8 +10,8 @@ body {
 
 /* Estilo base para el botón */
 #btnContador {
-  width: 500px;          /* Ancho del botón */
-  height: 500px;         /* Alto del botón, debe ser igual al ancho */
+  width: 250px;          /* Ancho del botón */
+  height: 250px;         /* Alto del botón, debe ser igual al ancho */
   background-color: red; /* Color de fondo */
   color: white;          /* Color del texto */
   font-size: 16px;       /* Tamaño de la fuente */
@@ -24,10 +24,14 @@ body {
   align-items: center;   /* Centrar verticalmente */
   transition: background-color 0.3s ease; /* Animación suave de color */
   outline: none;         /* Eliminar el borde de enfoque en algunos navegadores */
-  
-  
 }
 
 #btnContador:hover {
-  background-color: darkred; /* Cambiar color cuando se pasa el ratón por encima */
+  background-color: rgb(192, 0, 0); /* Cambiar color cuando se pasa el ratón por encima */
+}
+
+.panel {
+  background-color: lightgray;
+  padding: 2%;
+  border-radius: 20px;
 }
